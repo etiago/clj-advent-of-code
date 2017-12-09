@@ -2,6 +2,7 @@
   (:require
    [clj-advent-of-code.puzzle1.core :as puzzle-1]
    [clj-advent-of-code.puzzle2.core :as puzzle-2]
+   [clj-advent-of-code.puzzle3.core :as puzzle-3]
 ;;   [clj-advent-of-code.puzzle2.core :as puzzle-2]
   (:gen-class)))
 
@@ -18,3 +19,4 @@
 
   ;; Puzzle 2 - Second half
   ;; (prn (puzzle-2/run false)))
+  (prn (puzzle-3/run)))
